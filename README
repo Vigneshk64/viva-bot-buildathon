@@ -1,0 +1,73 @@
+AI Viva Voce Quiz Mode
+Submitted for the OpenAI Academy x NxtWave Buildathon
+By: Vignesh Das
+Team Name: Solo Scholar
+
+🚀 Live Application Demo
+You can test the fully functional, live web application here:
+
+https://viva-bot-buildathon.streamlit.app/
+
+(Note: This is an example link. Please replace it with the actual URL you get after deploying on Streamlit Community Cloud.)
+
+🎯 About The Project
+For engineering students, the viva voce (oral) exam is one of the most stressful academic challenges. Traditional studying is often passive and fails to prepare students for the pressure of a real-time, interactive examination.
+
+This project, the AI Viva Voce Quiz Mode, is an intelligent web application designed to solve this problem. It acts as a personal AI tutor that turns any study material into an active and engaging practice session.
+
+Key Features:
+
+Upload & Analyze: A student can upload any PDF document—lab reports, project documentation, or class notes.
+
+AI-Powered Quiz Generation: The application uses the Google Gemini 1.5 Flash API to analyze the document's content and generate a challenging 10-question quiz.
+
+Interactive Quiz Mode: Crucially, the app hides the correct answers, forcing the student to actively recall information and type in their own answers for all 10 questions, simulating a real exam.
+
+Instant Feedback & Scoring: Once submitted, the AI switches roles to become an examiner. It evaluates the student's answers against the ideal solutions, provides constructive feedback for each question, and gives a final score.
+
+This tool transforms a passive study session into a powerful, confidence-building mock exam experience.
+
+🛠️ How to Run This Code
+This project is built with Python and Streamlit and is best deployed from a GitHub repository.
+
+1. Setup
+Clone the repository to your local machine:
+
+git clone [https://github.com/Vigneshk64/viva-bot-buildathon.git](https://github.com/Vigneshk64/viva-bot-buildathon.git)
+
+Create and activate a virtual environment:
+
+python -m venv venv
+.\venv\Scripts\activate
+
+2. Install Dependencies
+Install all the required libraries from the requirements.txt file:
+
+pip install -r requirements.txt
+
+3. Set up the API Key
+The application is designed to pull the Gemini API key from a secure Streamlit Secret. For local execution:
+
+Create a folder named .streamlit in the project directory.
+
+Inside that folder, create a file named secrets.toml.
+
+Add your API key to the file in this format:
+
+GEMINI_API_KEY = "YOUR_API_KEY_HERE"
+
+4. Run the Application
+Execute the following command in your terminal:
+
+streamlit run app.py
+
+💻 Technologies Used
+Language: Python
+
+Framework: Streamlit
+
+AI Model: Google Gemini 1.5 Flash
+
+Key Libraries: google-generativeai, pypdf
+
+Deployment: GitHub & Streamlit Community Cloud
