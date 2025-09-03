@@ -6,9 +6,7 @@ Team Name: Solo Scholar
 🚀 Live Application Demo
 You can test the fully functional, live web application here:
 
-https://viva-bot-buildathon.streamlit.app/
-
-(Note: This is an example link. Please replace it with the actual URL you get after deploying on Streamlit Community Cloud.)
+https://viva-bot-buildathon-nykeqxbkcofdjdkxcuqhny.streamlit.app/
 
 🎯 About The Project
 For engineering students, the viva voce (oral) exam is one of the most stressful academic challenges. Traditional studying is often passive and fails to prepare students for the pressure of a real-time, interactive examination.
@@ -33,8 +31,7 @@ This project is built with Python and Streamlit and is best deployed from a GitH
 1. Setup
 Clone the repository to your local machine:
 
-git clone [https://github.com/Vigneshk64/viva-bot-buildathon.git](https://github.com/Vigneshk64/viva-bot-buildathon.git)
-
+git clone https://github.com/Vigneshk64/viva-bot-buildathon.git
 Create and activate a virtual environment:
 
 python -m venv venv
